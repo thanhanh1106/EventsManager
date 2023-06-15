@@ -40,8 +40,6 @@ namespace Test
             
             //EventDispatcher.Instance.RemoveListener(EventEnum.print, print2);
             EventDispatcher.Instance.RemoveEvent(EventEnum.sub);
-            
-
         }
         public void print()
         {
